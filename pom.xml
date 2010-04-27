@@ -20,8 +20,7 @@
 
 <!-- $Rev$ $Date$ -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -35,15 +34,15 @@
     <artifactId>geronimo-schema-j2ee_1.4</artifactId>
     <name>Geronimo Schema :: J2EE 1.4</name>
 
-    <version>1.3-SNAPSHOT</version>
+    <version>1.3</version>
     <packaging>bundle</packaging>
 
     <description>Geronimo project to build j2ee 1.4 schemas using xmlbeans</description>
 
     <scm>
-        <connection>scm:svn:https://svn.apache.org/repos/asf/geronimo/components/geronimo-schema-j2ee_1.4/trunk</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/geronimo/components/geronimo-schema-j2ee_1.4/trunk</developerConnection>
-        <url>https://svn.apache.org/repos/asf/geronimo/components/geronimo-schema-j2ee_1.4/trunk</url>
+        <connection>scm:svn:https://svn.apache.org/repos/asf/geronimo/components/geronimo-schema-j2ee_1.4/tags/geronimo-schema-j2ee_1.4-1.3</connection>
+        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/geronimo/components/geronimo-schema-j2ee_1.4/tags/geronimo-schema-j2ee_1.4-1.3</developerConnection>
+        <url>https://svn.apache.org/repos/asf/geronimo/components/geronimo-schema-j2ee_1.4/tags/geronimo-schema-j2ee_1.4-1.3</url>
     </scm>
 
     <dependencies>
@@ -100,7 +99,7 @@
             <!--<configuration>-->
             <!--<tasks>-->
             <!--<delete>-->
-            <!--<fileset dir="${project.build.outputDirectory}" includes="**/handler-chain.xsd"/>-->
+            <!--<fileset dir="${project.build.outputDirectory}" includes="**/handler-chain.xsd" />-->
             <!--</delete>-->
             <!--</tasks>-->
             <!--</configuration>-->
